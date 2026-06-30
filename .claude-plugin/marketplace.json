@@ -6,4 +6,7 @@
     {
       "name": "sdd-harness",
       "source": "./sdd-harness",
-      "description": "Harness Spec-Driven Development para micro-SaaS: cadeia + loop de entrega com 6 subagentes especializados (bug-fixer, implementer, reviewer, security-auditor, doc-auditor, scale-analyst), teste de carga k6, gates executaveis (hook de push + CI), seguranca no gate, rastreabilidade BDD, observabilidade->incidente, STATUS sem drift, gestao de mudanca, diario de bordo 
+      "description": "Harness Spec-Driven Development para micro-SaaS: cadeia + loop de entrega com 6 subagentes especializados (bug-fixer, implementer, reviewer, security-auditor, doc-auditor, scale-analyst), teste de carga k6, gates executaveis (hook de push + CI), seguranca no gate, rastreabilidade BDD, observabilidade->incidente, STATUS sem drift, gestao de mudanca, diario de bordo."
+    }
+  ]
+}
