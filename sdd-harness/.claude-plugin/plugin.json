@@ -1,0 +1,9 @@
+{
+  "name": "sdd-harness",
+  "version": "0.5.1",
+  "description": "Harness de engenharia Spec-Driven Development para micro-SaaS: cadeia de definicao + loop de entrega (sprint -> implement -> review -> deploy), com 6 subagentes especializados (bug-fixer, implementer, reviewer, security-auditor, doc-auditor, scale-analyst). Inclui teste de carga (k6), gates executaveis (scripts + hook de push + CI no GitHub Actions), seguranca no gate (scan de segredos + npm audit), rastreabilidade BDD (criterio -> teste), observabilidade -> incidente, STATUS sem drift (state.json unico), gestao de mudanca (amend), diario de bordo com guardrail de custo e comparacao vibe coding x SDD, design system e monetizacao USD+BRL opcionais por profile, e projeto de exemplo completo.",
+  "author": { "name": "Edi" },
+  "keywords": [
+    "spec-driven-development", "sdd", "micro-saas", "prd", "sprint",
+    "architecture", "aws", "design-system", "monetization", "git-workflow",
+    "deploy", "code-review", "documentation", "measurement", "tokens", "cost-trac

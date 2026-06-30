@@ -1,0 +1,6 @@
+data_hora,fase_task,metodo,modelo,tokens_in,tokens_out,custo_usd,tempo_min,iteracoes,resultado,observacoes
+2026-06-01T10:10,opportunity,SDD,opus-4,5200,2100,0.21,12,1,aceito,"go"
+2026-06-05T09:00,architect,SDD,opus-4,9800,3400,0.39,18,2,aceito,"ADR-0001"
+2026-06-12T14:00,T-01,SDD,sonnet,14200,6100,0.52,28,2,aceito,"skeleton"
+2026-06-18T16:00,deploy,SDD,sonnet,6800,2600,0.31,14,1,aceito,"DEPLOY-001"
+2026-06-19T11:00,LOAD-001,SDD,sonnet,7100,2400,0.28,16,1,aceito,"achou DT-01"

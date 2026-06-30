@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+# deps / build (se algum subprojeto aparecer aqui)
+node_modules/
+dist/
+build/
+.next/
+
+# assets de divulgacao (opcional — remova esta linha se quiser versionar)
+linkedin-post/

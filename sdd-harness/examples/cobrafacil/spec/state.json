@@ -1,0 +1,98 @@
+{
+  "project": "cobrafacil",
+  "createdAt": "2026-06-01T10:00:00Z",
+  "currentPhase": "loop",
+  "git": {
+    "defaultBranch": "main",
+    "branchPerFeature": true
+  },
+  "profile": {
+    "billing": true,
+    "markets": [
+      "USD",
+      "BRL"
+    ],
+    "cloud": "aws",
+    "budgetUsd": 50
+  },
+  "phases": {
+    "opportunity": {
+      "status": "completed",
+      "gatePassed": true,
+      "artifact": "spec/opportunity.md"
+    },
+    "constitution": {
+      "status": "completed",
+      "gatePassed": true,
+      "artifact": "spec/constitution.md"
+    },
+    "prd": {
+      "status": "completed",
+      "gatePassed": true,
+      "artifact": "spec/prds/"
+    },
+    "design": {
+      "status": "completed",
+      "gatePassed": true,
+      "artifact": "spec/design-system.md"
+    },
+    "architect": {
+      "status": "completed",
+      "gatePassed": true,
+      "artifact": "spec/architecture.md"
+    },
+    "monetize": {
+      "status": "completed",
+      "gatePassed": true,
+      "artifact": "spec/monetization.md"
+    },
+    "tasks": {
+      "status": "completed",
+      "gatePassed": true,
+      "artifact": "spec/tasks/"
+    }
+  },
+  "sprints": [
+    {
+      "id": "SPRINT-001",
+      "slug": "walking-skeleton",
+      "status": "done",
+      "retro": "RETRO-001"
+    }
+  ],
+  "prds": [
+    {
+      "id": "PRD-V1-01",
+      "title": "MVP cobranca + lembrete",
+      "status": "em entrega"
+    }
+  ],
+  "bugs": [],
+  "deploys": [
+    {
+      "id": "DEPLOY-001",
+      "env": "staging",
+      "sha": "a1b2c3d",
+      "result": "ok"
+    }
+  ],
+  "loadtests": [
+    {
+      "id": "LOAD-001",
+      "env": "staging",
+      "p95": 210,
+      "rps": 260,
+      "errorPct": 0.3,
+      "passed": true
+    }
+  ],
+  "changes": [],
+  "logbook": {
+    "interactions": 7,
+    "tokensIn": 48230,
+    "tokensOut": 18750,
+    "costUsd": 1.92,
+    "timeMin": 96
+  },
+  "experiments": []
+}
